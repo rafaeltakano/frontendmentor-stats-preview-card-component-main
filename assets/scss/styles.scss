@@ -93,8 +93,10 @@ body {
     }
 
     &__text {
-      padding: 0 2.5rem;
+      font-size: $--font-size;
+      line-height: 1.5;
       margin-bottom: 2.5rem;
+      padding: 0 2.5rem;
     }
 
     &__stats {
@@ -118,7 +120,9 @@ body {
 
   &__text {
     p {
+      color: $--stat-heading;
       font-family: 'Lexend Deca', sans-serif;
+      font-size: $--font-size;
     }
   }
 }
@@ -157,7 +161,7 @@ body {
 
       &__stats {
         flex-direction: row;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
         padding: 0 5rem 0 5rem;
       }
     }

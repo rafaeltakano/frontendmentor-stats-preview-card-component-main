@@ -75,8 +75,10 @@ body {
   font-weight: 700;
 }
 .card__body__text {
-  padding: 0 2.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
   margin-bottom: 2.5rem;
+  padding: 0 2.5rem;
 }
 .card__body__stats {
   display: flex;
@@ -93,7 +95,9 @@ body {
   font-weight: 700;
 }
 .stats__text p {
+  color: hsla(0deg, 0%, 100%, 0.6);
   font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
 }
 
 @media (min-width: 67.5em) {
@@ -125,7 +129,7 @@ body {
   }
   .card__body__stats {
     flex-direction: row;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     padding: 0 5rem 0 5rem;
   }
 }
